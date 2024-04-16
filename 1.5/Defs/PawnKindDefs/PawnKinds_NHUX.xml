@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="NHUX_KindBase" Abstract="True">
+		<race>NHUX</race>
+		<combatPower>80</combatPower>
+		<chemicalAddictionChance>0.0</chemicalAddictionChance>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
+		<invNutrition>4.5</invNutrition>
+		<initialWillRange>1~5</initialWillRange>
+		<initialResistanceRange>10~25</initialResistanceRange>
+		<weaponMoney>1500</weaponMoney>
+		<apparelMoney>1000~2000</apparelMoney>
+		<itemQuality>Masterwork</itemQuality>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~15</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>10~15</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="NHUX_KindBase">
+		<defName>NHUX_Player</defName>
+		<label>NHUX</label>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<isFighter>true</isFighter>
+		<backstoryCategories>
+			<li>Outlander</li>
+			<li>Tribal</li>
+			<li>Civil</li>
+		</backstoryCategories>
+		<!-- <backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>NHUX_Backstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>NHUX_Backstory_Adulthood</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride> -->
+		<apparelRequired>
+			<li>NHUX_Apparel_Coat</li>
+			<li>NHUX_Apparel_Clothes</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>NHUX_Costume</li>
+		</apparelTags>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GunHeavy</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>

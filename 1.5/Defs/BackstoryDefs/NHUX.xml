@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <BackstoryDef ParentName="Solid">
+    <defName>NHUXCustomChildhood</defName>
+    <title>punk</title>
+    <titleShort>punk</titleShort>
+    <description>[PAWN_nameDef] spent his childhood selling knockoff cigarettes to 15-year-olds. The cigarettes were often full of grass clippings.</description>
+    <skillGains>
+      <Intellectual>-2</Intellectual>
+      <Social>-2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>NHUX_Backstory_Childhood</li>
+    </spawnCategories>
+  </BackstoryDef>
+  
+  <BackstoryDef ParentName="Solid">
+    <defName>NHUXCustomAdulthood</defName>
+    <title>game developer</title>
+    <titleShort>game dev</titleShort>
+    <description>[PAWN_nameDef] was an independent game developer.\n\nAfter an early success, [PAWN_possessive] career quickly degenerated into a circus of misguided ideas, deals gone wrong, and desperate, failed PR stunts.</description>
+    <skillGains>
+      <Construction>-2</Construction>
+      <Mining>-2</Mining>
+    </skillGains>
+    <spawnCategories>
+      <li>NHUX_Backstory_Adulthood</li>
+    </spawnCategories>
+  </BackstoryDef> -->
+  
+</Defs>

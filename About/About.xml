@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Race NHUX</name>
+  <author>Verniy709</author>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>Verniy709.RaceNHUX</packageId>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <description>独立种族NHUX。正常情况人物都有耳朵和尾巴，作为bodyAddons。禁用了生育，因为没有做种族对应的婴儿和儿童。需要生成人物时，使用控制台指令Spawn pawn, 然后搜索NHUX_Player，或者使用人物编辑器，搜索种族NHUX。默认身体类型为Thin，理论上可以穿其他有Thin体型的服装，但肯定不会特别美观。服装目前有两个，一件叫“（NHUX）外套”，一件叫“（NHUX）服装”。如果使用了Facial Animation，会自动添加面部动画。
+  </description>
+</ModMetaData>

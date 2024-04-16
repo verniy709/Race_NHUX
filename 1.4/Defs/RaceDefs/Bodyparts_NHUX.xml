@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+	<BodyPartDef>
+   <defName>NHUX_Tail</defName>
+   <label>tail</label>
+   <hitPoints>30</hitPoints>
+   <frostbiteVulnerability>0</frostbiteVulnerability>
+   <skinCovered>true</skinCovered>
+ </BodyPartDef>
+</Defs>

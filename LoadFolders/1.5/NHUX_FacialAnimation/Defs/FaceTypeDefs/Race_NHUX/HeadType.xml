@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FacialAnimation.HeadTypeDef>
+		<defName>NHUX_HeadNormal</defName>
+		<texPath>Things/Pawn/Race_NHUX/Heads_Blank/Normal</texPath>
+		<shader>Map/CutoutSkin</shader>
+		<shaderColorOverride>Map/CutoutSkinOverlay</shaderColorOverride>
+		<raceName>NHUX</raceName>
+	</FacialAnimation.HeadTypeDef>
+
+</Defs>

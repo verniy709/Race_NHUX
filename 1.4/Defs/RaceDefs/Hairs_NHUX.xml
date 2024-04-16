@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<HairDef>
+		<defName>NHUX_Hair</defName>
+		<label>(NHUX)Hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>NHUX_Hair/NHUX_Hair</texPath>
+		<styleTags>
+			<li>NHUX_Hair</li>
+		</styleTags>
+	</HairDef>
+
+</Defs>

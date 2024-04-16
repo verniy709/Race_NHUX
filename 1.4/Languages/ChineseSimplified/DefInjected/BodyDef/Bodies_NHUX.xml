@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NHUX_Body.label>NHUX</NHUX_Body.label>
+  <NHUX_Body.corePart.parts.0.customLabel>尾巴</NHUX_Body.corePart.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.6.customLabel>左肺</NHUX_Body.corePart.parts.6.customLabel>
+  <NHUX_Body.corePart.parts.7.customLabel>右肺</NHUX_Body.corePart.parts.7.customLabel>
+  <NHUX_Body.corePart.parts.8.customLabel>左肾</NHUX_Body.corePart.parts.8.customLabel>
+  <NHUX_Body.corePart.parts.9.customLabel>右肾</NHUX_Body.corePart.parts.9.customLabel>
+  <NHUX_Body.corePart.parts.11.parts.0.parts.1.customLabel>左眼</NHUX_Body.corePart.parts.11.parts.0.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.11.parts.0.parts.2.customLabel>右眼</NHUX_Body.corePart.parts.11.parts.0.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.11.parts.0.parts.3.customLabel>左耳</NHUX_Body.corePart.parts.11.parts.0.parts.3.customLabel>
+  <NHUX_Body.corePart.parts.11.parts.0.parts.4.customLabel>右耳</NHUX_Body.corePart.parts.11.parts.0.parts.4.customLabel>
+  <NHUX_Body.corePart.parts.12.customLabel>左肩</NHUX_Body.corePart.parts.12.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.0.customLabel>左锁骨</NHUX_Body.corePart.parts.12.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.customLabel>左臂</NHUX_Body.corePart.parts.12.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.0.customLabel>左肱骨</NHUX_Body.corePart.parts.12.parts.1.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.1.customLabel>左桡骨</NHUX_Body.corePart.parts.12.parts.1.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.2.customLabel>左手</NHUX_Body.corePart.parts.12.parts.1.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>左小指</NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>左无名指</NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>左中指</NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>左食指</NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+  <NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>左拇指</NHUX_Body.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+  <NHUX_Body.corePart.parts.13.customLabel>右肩</NHUX_Body.corePart.parts.13.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.0.customLabel>右锁骨</NHUX_Body.corePart.parts.13.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.customLabel>右臂</NHUX_Body.corePart.parts.13.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.0.customLabel>右肱骨</NHUX_Body.corePart.parts.13.parts.1.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.1.customLabel>右桡骨</NHUX_Body.corePart.parts.13.parts.1.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.2.customLabel>右手</NHUX_Body.corePart.parts.13.parts.1.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>右小指</NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>右无名指</NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>右中指</NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>右食指</NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>右拇指</NHUX_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <NHUX_Body.corePart.parts.15.customLabel>左腿</NHUX_Body.corePart.parts.15.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.0.customLabel>左股骨</NHUX_Body.corePart.parts.15.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.1.customLabel>左胫骨</NHUX_Body.corePart.parts.15.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.2.customLabel>左脚</NHUX_Body.corePart.parts.15.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.2.parts.0.customLabel>左小趾</NHUX_Body.corePart.parts.15.parts.2.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.2.parts.1.customLabel>左次小趾</NHUX_Body.corePart.parts.15.parts.2.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.2.parts.2.customLabel>左中趾</NHUX_Body.corePart.parts.15.parts.2.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.2.parts.3.customLabel>左第二趾</NHUX_Body.corePart.parts.15.parts.2.parts.3.customLabel>
+  <NHUX_Body.corePart.parts.15.parts.2.parts.4.customLabel>左大脚趾</NHUX_Body.corePart.parts.15.parts.2.parts.4.customLabel>
+  <NHUX_Body.corePart.parts.16.customLabel>右腿</NHUX_Body.corePart.parts.16.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.0.customLabel>右股骨</NHUX_Body.corePart.parts.16.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.1.customLabel>右胫骨</NHUX_Body.corePart.parts.16.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.2.customLabel>右脚</NHUX_Body.corePart.parts.16.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.2.parts.0.customLabel>右小趾</NHUX_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.2.parts.1.customLabel>右次小趾</NHUX_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.2.parts.2.customLabel>右中趾</NHUX_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.2.parts.3.customLabel>右第二趾</NHUX_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <NHUX_Body.corePart.parts.16.parts.2.parts.4.customLabel>右大脚趾</NHUX_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

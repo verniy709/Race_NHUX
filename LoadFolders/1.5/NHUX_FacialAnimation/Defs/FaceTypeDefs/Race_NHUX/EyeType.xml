@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EyeballTypeDef>  
+  	<defName>NHUX_EyeNormal</defName>
+  	<texPath>Things/Pawn/Race_NHUX/Eyes/Normal</texPath>
+  	<altMaskPath>Things/Pawn/Race_NHUX/Eyes/Common</altMaskPath>
+    <shader>Map/CutoutSkinOverlay</shader>
+    <minColor>RGB(1,1,1)</minColor>
+    <maxColor>RGB(1,1,1)</maxColor>
+    <raceName>NHUX</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>  
+    <defName>NHUX_EyeHeart</defName>
+    <texPath>Things/Pawn/Race_NHUX/Eyes/Heart</texPath>
+    <altMaskPath>Things/Pawn/Race_NHUX/Eyes/Common</altMaskPath>
+    <shader>Map/CutoutSkinOverlay</shader>
+    <minColor>RGB(1,1,1)</minColor>
+    <maxColor>RGB(1,1,1)</maxColor>
+    <raceName>NHUX</raceName>
+  </FacialAnimation.EyeballTypeDef>
+
+</Defs>

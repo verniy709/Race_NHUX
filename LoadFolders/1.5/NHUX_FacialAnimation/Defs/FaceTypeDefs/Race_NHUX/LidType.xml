@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FacialAnimation.LidTypeDef>
+		<defName>NHUX_LidNormal</defName>
+		<texPath>Things/Pawn/Race_NHUX/Lids/Normal</texPath>
+		<shader>Map/Transparent</shader>
+		<raceName>NHUX</raceName>
+	</FacialAnimation.LidTypeDef>
+
+</Defs>

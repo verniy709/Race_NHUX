@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FacialAnimation.BrowTypeDef>
+		<defName>NHUX_BrowNormal</defName>
+		<texPath>Things/Pawn/Race_NHUX/Brows/Normal</texPath>
+		<shader>Map/Transparent</shader>
+		<raceName>NHUX</raceName>
+	</FacialAnimation.BrowTypeDef>
+</Defs>

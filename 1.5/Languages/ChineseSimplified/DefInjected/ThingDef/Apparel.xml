@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Coat -->
+
+  <NHUX_Apparel_Coat.label>(NHUX)外套</NHUX_Apparel_Coat.label>
+  <NHUX_Apparel_Coat.description>(NHUX)外套</NHUX_Apparel_Coat.description>
+
+
+  <!-- Clothes -->
+
+  <NHUX_Apparel_Clothes.label>(NHUX)服装</NHUX_Apparel_Clothes.label>
+  <NHUX_Apparel_Clothes.description>(NHUX)服装</NHUX_Apparel_Clothes.description>
+
+
+</LanguageData>

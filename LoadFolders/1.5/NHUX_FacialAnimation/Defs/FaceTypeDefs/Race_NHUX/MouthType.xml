@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FacialAnimation.MouthTypeDef>
+		<defName>NHUX_MouthNormal</defName>
+		<texPath>Things/Pawn/Race_NHUX/Mouth/Normal</texPath>
+		<shader>Map/Transparent</shader>
+		<raceName>NHUX</raceName>
+	</FacialAnimation.MouthTypeDef>
+</Defs>

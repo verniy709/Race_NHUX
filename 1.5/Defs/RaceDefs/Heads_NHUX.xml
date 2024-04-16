@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>NHUX_FaceA</defName>
+		<graphicPath>NHUX_Face/NHUX_FaceA</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+</Defs>

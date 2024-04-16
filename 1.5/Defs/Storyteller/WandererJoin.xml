@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <IncidentDef>
+    <defName>NHUX_WandererJoin_Easy</defName>
+    <label>NHUX arrives</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>NHUX arrives</letterLabel>
+    <letterText>NHUX arrives.</letterText>
+    <baseChance>0.3</baseChance>
+    <pawnKind>NHUX_Player</pawnKind>
+    <populationEffect>IncreaseEasy</populationEffect>
+    <minRefireDays>1000</minRefireDays>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>NHUX_WandererJoin_Medium</defName>
+    <label>NHUX arrives</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>NHUX arrives</letterLabel>
+    <letterText>NHUX arrives.</letterText>
+    <baseChance>0.2</baseChance>
+    <pawnKind>NHUX_Player</pawnKind>
+    <populationEffect>IncreaseMedium</populationEffect>
+    <minRefireDays>1000</minRefireDays>
+  </IncidentDef>
+
+  <IncidentDef>
+    <defName>NHUX_WandererJoin_Hard</defName>
+    <label>NHUX arrives</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>NHUX arrives</letterLabel>
+    <letterText>NHUX arrives.</letterText>
+    <baseChance>0.1</baseChance>
+    <pawnKind>NHUX_Player</pawnKind>
+    <populationEffect>IncreaseHard</populationEffect>
+    <minRefireDays>1000</minRefireDays>
+  </IncidentDef>
+  
+</Defs>

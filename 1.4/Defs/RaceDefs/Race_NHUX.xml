@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LifeStageDef>
+		<defName>NHUX_Adult</defName>
+		<label>Adult</label>
+		<adjective>Adult</adjective>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="NHUX_BasePawn" Abstract="True">
+		<alienRace>
+			<generalSettings>
+				<maleGenderProbability>0.5</maleGenderProbability>
+				<humanRecipeImport>true</humanRecipeImport>
+				<immuneToXenophobia>false</immuneToXenophobia>
+				<canLayDown>true</canLayDown>
+				<immuneToAge>true</immuneToAge>
+				<maxDamageForSocialfight>2</maxDamageForSocialfight>
+				<additionalTraits>0~2</additionalTraits>
+				<alienPartGenerator>
+					<headTypes Inherit="False">
+						<li>NHUX_FaceA</li>
+					</headTypes>
+					<bodyTypes>
+						<li>Thin</li>
+					</bodyTypes>
+					<oldHairAgeRange>70~100</oldHairAgeRange>			
+					<headOffsetDirectional>
+						<north>(0.0, 0.102)</north>
+						<south>(0.0, 0.102)</south>
+						<east>(-0.162, 0.09)</east>
+						<west>(0.162, 0.09)</west>
+					</headOffsetDirectional>
+					<customDrawSize>(1.00, 1.00)</customDrawSize>
+					<customHeadDrawSize>(0.667, 0.667)</customHeadDrawSize>
+					<customPortraitDrawSize>(1.00, 1.00)</customPortraitDrawSize>
+					<customPortraitHeadDrawSize>(0.667, 0.667)</customPortraitHeadDrawSize>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(1,1,1,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(1,1,1,1)</only>
+									</li>									
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li>
+							<drawSize>1</drawSize>
+							<path>NHUX_Tail/NHUX_Tail</path>
+							<bodyPartLabel>tail</bodyPartLabel>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Thin>(0,0)</Thin>
+									</bodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Thin>(0,0)</Thin>
+									</bodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Thin>(0,0)</Thin>
+									</bodyTypes>
+								</east>
+							</offsets>
+							<drawnInBed>false</drawnInBed>
+						</li>
+						<li>
+							<drawSize>1</drawSize>
+							<path>NHUX_Ear/NHUX_Ear_Left</path>
+							<bodyPartLabel>left ear</bodyPartLabel>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<layerInvert>false</layerInvert>
+							<alignWithHead>true</alignWithHead>
+							<drawnInBed>True</drawnInBed>
+						</li>
+						<li>
+							<drawSize>1</drawSize>
+							<path>NHUX_Ear/NHUX_Ear_Right</path>
+							<bodyPartLabel>right ear</bodyPartLabel>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<layerInvert>false</layerInvert>
+							<alignWithHead>true</alignWithHead>
+							<drawnInBed>True</drawnInBed>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
+				<reproduction>
+					<maleFertilityAgeFactor>
+						<points>
+							<li>(1000, 0)</li>
+						</points>
+					</maleFertilityAgeFactor>
+					<femaleFertilityAgeFactor>
+						<points>
+							<li>(1000, 0)</li>
+						</points>
+					</femaleFertilityAgeFactor>
+				</reproduction>
+			</generalSettings>
+			<graphicPaths>
+				<body>NHUX_Body/</body>
+				<head>NHUX_Face/</head>	
+			</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags>
+							<li>NoBeard</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+						<styleTags>
+							<li>NoTattoo</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>NHUX_Hair</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+			</styleSettings>
+			<raceRestriction>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+				</blackGeneList>
+				<blackGeneTags>
+					<li>HairStyle</li>
+					<li>Fur</li>
+					<li>BeardStyle</li>
+					<li>EyeColor</li>
+					<li>Tail</li>
+					<li>SkinColorOverride</li>
+					<li>Beauty</li>
+				</blackGeneTags>
+				<blackEndoCategories>
+					<li>HairColor</li>
+					<li>BodyType</li>
+					<li>Melanin</li>
+					<li>Head</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Hands</li>
+					<li>Headbone</li>
+					<li>Voice</li>
+				</blackEndoCategories>
+				<apparelList>	
+					<li>NHUX_Apparel_Coat</li>
+					<li>NHUX_Apparel_Clothes</li>
+				</apparelList>
+				<whiteApparelList>
+				</whiteApparelList>
+				<onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+			</raceRestriction>
+		</alienRace>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<nameCategory>HumanStandard</nameCategory>
+			<lifeExpectancy>100</lifeExpectancy>
+			<body>NHUX_Body</body>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHealthScale>1.0</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 0.70)</li>
+					<li>(2, 0.30)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>NHUX_Adult</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>0</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>0</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>0</BasicWorker>
+				<Warden>0</Warden>
+				<Handling>0</Handling>
+				<Cooking>0</Cooking>
+				<Hunting>0</Hunting>
+				<Construction>0</Construction>
+				<Growing>0</Growing>
+				<Mining>0</Mining>
+				<PlantCutting>0</PlantCutting>
+				<Smithing>0</Smithing>
+				<Tailoring>0</Tailoring>
+				<Art>0</Art>
+				<Crafting>0</Crafting>
+				<Hauling>0</Hauling>
+				<Cleaning>0</Cleaning>
+				<Research>0</Research>
+			</lifeStageWorkSettings>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.7, 0.2)</volume>
+				<offset>(0,0,-0.4)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(20,1)</li>
+					<li>(30,100)</li>
+					<li>(40,1)</li>
+					<li>(100,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+			</hediffGiverSets>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="NHUX_BasePawn">
+		<defName>NHUX</defName>
+		<label>NHUX</label>
+		<description>Snow leopard.</description>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<MentalBreakThreshold>0.25</MentalBreakThreshold>
+			<MoveSpeed>6.0</MoveSpeed>
+			<Mass>45</Mass>
+			<MeatAmount>50</MeatAmount>
+			<LeatherAmount>50</LeatherAmount>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>25</ComfyTemperatureMax>
+			<CarryingCapacity>80</CarryingCapacity>
+			<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+			<ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.8</AimingDelayFactor>
+			<PainShockThreshold>0.8</PainShockThreshold>
+			<EatingSpeed>1.5</EatingSpeed>
+		</statBases>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

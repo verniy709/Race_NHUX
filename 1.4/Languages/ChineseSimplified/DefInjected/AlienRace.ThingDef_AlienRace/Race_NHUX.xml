@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NHUX.label>NHUX</NHUX.label>
+  <NHUX.description>雪豹.</NHUX.description>
+  <NHUX.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</NHUX.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <NHUX.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</NHUX.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <NHUX.tools.0.label>左拳</NHUX.tools.0.label>
+  <NHUX.tools.1.label>右拳</NHUX.tools.1.label>
+
+
+</LanguageData>

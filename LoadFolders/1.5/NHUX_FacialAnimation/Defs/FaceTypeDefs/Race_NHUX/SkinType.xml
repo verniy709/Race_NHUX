@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.SkinTypeDef>
+	  <defName>NHUX_SkinNormal</defName>
+	  <texPath>Things/Pawn/Race_NHUX/Skins/Normal</texPath>
+	  <shader>Map/CutoutSkin</shader>
+	  <raceName>NHUX</raceName>
+  </FacialAnimation.SkinTypeDef>
+
+</Defs>
